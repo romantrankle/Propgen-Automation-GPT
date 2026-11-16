@@ -9,7 +9,10 @@
 - Secret review found no private-key markers; credentials in tests are synthetic. No real key was
   present in the environment or written to files. This is not a third-party secret scanner audit.
 - Initial /workspace had no usable Git repository and no remote. Created an isolated local project
-  repository in /workspace/propgen-ai. GitHub push and PR require a destination repository/remote.
+  repository in /workspace/propgen-ai. Subsequently connected the user-specified remote
+  https://github.com/romantrankle/Propgen-Automation-GPT.git and pushed main successfully.
+  Local tests, lint and formatting checks passed again before publishing. GitHub Actions
+  results have not yet been verified.
 - All API operations remain documented but not live-tested. Permissions and actual server response
   compatibility remain unverified. Do not call the integration production-verified yet.
 

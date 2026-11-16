@@ -6,8 +6,9 @@ The placeholder in .env.example is not a credential; the project never automatic
 Authentication is X-API-Key, an explicitly documented alternative to Bearer authentication.
 The origin and /public_api/v1 base path are pinned; redirects are disabled.
 
-This execution workspace had no configured PROPGEN_API_KEY and no Git repository or remote.
-Supply a repository checkout or remote before pushing. Select the necessary API scopes in
+Initial setup had no configured PROPGEN_API_KEY and no Git repository or remote.
+The integration is now published at https://github.com/romantrankle/Propgen-Automation-GPT
+on branch main. PROPGEN_API_KEY must still be configured securely. Select the necessary API scopes in
 PropGen Settings → Integrationen → API-Schlüssel; list and read are independent permissions.
 Allow the runner's egress IP if an allowlist is configured.
 
